@@ -157,6 +157,7 @@ having comment_text is null;
  ) as total_no_of_users_without_comments; 
 
 
+![er diagram](https://github.com/RishabInanni/socialmediadatabase/assets/110304592/4a6518e2-1c21-4627-90fa-6582f99cce54)
 
 
 
