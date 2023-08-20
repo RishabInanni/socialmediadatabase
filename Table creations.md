@@ -1,4 +1,4 @@
-
+# Users
 CREATE TABLE users(
 id serial unique primary key,
 username varchar(255) not NULL,
@@ -6,7 +6,7 @@ created_at timestamp default now()
 );
 select * from users;
 
-
+# photos
 create table photos(
 	id serial primary key,
 	image_url varchar (355) not null,
@@ -16,7 +16,7 @@ create table photos(
 users(id));
 select * from photos;
 
-
+# comments
 create table comments(
 	id serial primary key,
 	comment_text varchar (355) not null,
@@ -30,6 +30,8 @@ photos(id));
 
 select * from comments;
 
+# likes
+
 create table likes(
  user_id int not null,
  photo_id int not null,
@@ -41,6 +43,8 @@ create table likes(
 
 select* from likes;
 
+# follows
+
 create table follows(
  follower_id int not null,
  followee_id int not null,
@@ -51,6 +55,8 @@ create table follows(
 );
 select * from follows;
 
+# tags
+
 create table tags(
 id serial primary key,
 tag_name varchar(255) unique not null,
@@ -58,6 +64,7 @@ created_at timestamp default now()
 );
 select * from tags;
 
+# photo_tags
 create table photo_tags(
  photo_id int not null,
  tag_id int not null,
