@@ -25,7 +25,7 @@ select username from users
 left join photos on users.id=photos.user_id
 where photos.id is null;
 
-# How many times the aaverage user posts
+# How many times the average user posts
 select round((select count(*) from photos)/(select count(*)from users),2);
 
 # To find most active user
