@@ -39,14 +39,23 @@ photo_tags
 
 
 Top 3 users according to created date.
+
 Days in which most user registed in app.
+
 To find inactive user.
+
 How many times the aaverage user posts.
+
 To find most active user.
+
 Most used hastags.
+
 No of users who posted atleast once.
+
 Users who have not commented .
+
 No of people who never commented on any of the post.
+
 
 (for code visit queries file)
 
