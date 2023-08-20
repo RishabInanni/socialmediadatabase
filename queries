@@ -1,5 +1,5 @@
 #Queries
-
+ 
 #Top 3 users according to created date.
 select * from users
 order by created_at
