@@ -4,6 +4,7 @@
 A social media database is a structured collection of data that stores and manages information related to social media platforms and their users' interactions. It serves as the foundational backbone for various social media platforms, enabling them to function effectively by organizing and storing user profiles, posts, comments, likes, followers and other forms of user-generated content. The database allows for efficient retrieval, storage, and manipulation of this data to provide users with a seamless and interactive experience.
 
 #Table Creation
+
 users
 photos
 comments
@@ -15,9 +16,12 @@ photo_tags
 (for more info visit Table Creation file)
 
 #Insertion
+
 for  info visit Table Creation file
 
 #queries
+
+
 Top 3 users according to created date.
 Days in which most user registed in app.
 To find inactive user.
