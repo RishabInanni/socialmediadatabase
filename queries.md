@@ -1,9 +1,9 @@
 # Queries
  
 # Top 3 users according to created date.
-select * from users
-order by created_at
-limit 3;
+  select * from users
+  order by created_at
+  limit 3;
 
 # Days in which most user registed in app
 
@@ -29,7 +29,6 @@ where photos.id is null;
 select round((select count(*) from photos)/(select count(*)from users),2);
 
 # To find most active user
-
 
 select users.username ,count(photos.image_url) from users
 join photos on users.id=photos.user_id
