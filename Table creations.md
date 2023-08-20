@@ -77,6 +77,9 @@ select * from photo_tags;
 
 
 
+# Inserting  values :
+
+
 insert into users (username,created_at) values('rishab innani','2023-02-16 18:22:30'),
 ('pratham sharma,','2023-02-17 17:22:30');
 insert into users (username,created_at) values('devi prasad mishra','2022-01-15 16:22:30'),
