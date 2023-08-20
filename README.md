@@ -6,18 +6,34 @@ A social media database is a structured collection of data that stores and manag
 #Table Creation
 
 users
+
 photos
+
 comments
+
 likes
+
 follows
+
 tags
+
 photo_tags
+
 
 (for more info visit Table Creation file)
 
+
+
+
+
+
+
 #Insertion
 
-for  info visit Table Creation file
+(for  info visit Table Creation file)
+
+
+
 
 #queries
 
