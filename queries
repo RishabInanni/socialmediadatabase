@@ -1,6 +1,6 @@
-# Queries
+#Queries
  
-# Top 3 users according to created date.
+#Top 3 users according to created date.
 select * from users
 order by created_at
 limit 3;
